@@ -1,0 +1,352 @@
+pybullet build time: Jan 29 2025 23:16:28
+Using device: cuda
+
+=== IMPROVED MAPPO ENVIRONMENT (Quick Wins Applied) ===
+Evader speed: 0.030 | Capture radius: 2.5
+[AEG] Initialized with 5 EASY seed tasks (NO obstacles)
+
+============================================================
+STARTING TRAINING
+============================================================
+
+[EP   20] Reward:-3255.7 | Capture: 75.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.82 | D-Coll:38.1 | O-Coll:1.1
+[EP   40] Reward:-1499.3 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.69 | D-Coll:5.7 | O-Coll:10.6
+[EP   60] Reward: -979.9 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.65 | D-Coll:12.9 | O-Coll:3.9
+[EP   80] Reward: -650.7 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.47 | D-Coll:15.6 | O-Coll:1.4
+[EP  100] Reward: -695.1 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.42 | D-Coll:13.1 | O-Coll:2.0
+[EP  120] Reward:  186.9 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.39 | D-Coll:4.8 | O-Coll:0.7
+[EP  140] Reward: -768.6 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.56 | D-Coll:8.8 | O-Coll:3.4
+[EP  160] Reward:  215.6 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.48 | D-Coll:3.6 | O-Coll:5.0
+[EP  180] Reward: -768.4 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.33 | D-Coll:18.9 | O-Coll:5.0
+[EP  200] Reward:  295.4 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.41 | D-Coll:6.5 | O-Coll:1.1
+[EP  220] Reward:-4038.9 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.55 | D-Coll:81.5 | O-Coll:0.0
+[EP  240] Reward:  249.0 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.25 | D-Coll:0.2 | O-Coll:0.5
+[EP  260] Reward: -895.0 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.51 | D-Coll:27.2 | O-Coll:2.1
+[EP  280] Reward:  -77.8 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.41 | D-Coll:2.9 | O-Coll:3.6
+[EP  300] Reward: -821.6 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.60 | D-Coll:16.5 | O-Coll:0.0
+[EP  320] Reward: -299.0 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.47 | D-Coll:15.2 | O-Coll:1.4
+[EP  340] Reward: -225.1 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.61 | D-Coll:6.1 | O-Coll:0.0
+[EP  360] Reward:  393.0 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.20 | D-Coll:1.9 | O-Coll:0.9
+[EP  380] Reward:  370.6 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.37 | D-Coll:2.5 | O-Coll:1.7
+[EP  400] Reward:-1786.5 | Capture: 75.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.74 | D-Coll:35.4 | O-Coll:1.2
+[EP  420] Reward:  220.9 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.23 | D-Coll:0.3 | O-Coll:4.0
+[EP  440] Reward: -820.8 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.33 | D-Coll:18.8 | O-Coll:1.8
+[EP  460] Reward:  270.6 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.62 | D-Coll:1.4 | O-Coll:0.3
+[EP  480] Reward:  247.3 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.46 | D-Coll:1.0 | O-Coll:3.1
+[EP  500] Reward:  548.7 | Capture:100.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.33 | D-Coll:1.0 | O-Coll:0.9
+✓ Saved checkpoint: checkpoints_mappo/mappo_aeg_ep500.pt
+✓ Saved training curves to checkpoints_mappo/training_curves.png
+
+--- Running evaluation at episode 500 ---
+
+============================================================
+EVALUATING POLICY (100 episodes)
+============================================================
+[10/100] Capture Rate: 70.0% | Avg Reward: 404.6
+[20/100] Capture Rate: 70.0% | Avg Reward: -189.0
+[30/100] Capture Rate: 63.3% | Avg Reward: 55.3
+[40/100] Capture Rate: 65.0% | Avg Reward: 126.5
+[50/100] Capture Rate: 66.0% | Avg Reward: -225.8
+[60/100] Capture Rate: 61.7% | Avg Reward: -950.0
+[70/100] Capture Rate: 60.0% | Avg Reward: -1100.6
+[80/100] Capture Rate: 58.8% | Avg Reward: -945.5
+[90/100] Capture Rate: 58.9% | Avg Reward: -835.1
+[100/100] Capture Rate: 58.0% | Avg Reward: -780.0
+✓ Saved evaluation plots to checkpoints_mappo/evaluation_results.png
+
+============================================================
+EVALUATION SUMMARY
+============================================================
+Capture Rate:          58.00%
+Avg Reward:            -780.02 ± 4693.05
+Avg Min Distance:      3.507 ± 1.344
+Avg Episode Length:    290.9 ± 267.1
+Avg Drone Collisions:  22.55
+Avg Obs Collisions:    0.00
+============================================================
+
+[EP  520] Reward:  545.6 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.52 | D-Coll:0.6 | O-Coll:0.0
+[EP  540] Reward:   84.9 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.50 | D-Coll:7.0 | O-Coll:0.9
+[EP  560] Reward:  460.3 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.38 | D-Coll:1.1 | O-Coll:0.0
+[EP  580] Reward:  230.1 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.56 | D-Coll:2.7 | O-Coll:0.3
+[EP  600] Reward:   49.9 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.35 | D-Coll:1.9 | O-Coll:3.1
+[EP  620] Reward:   20.5 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.51 | D-Coll:5.3 | O-Coll:0.0
+[EP  640] Reward:  445.1 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.37 | D-Coll:3.3 | O-Coll:0.0
+[EP  660] Reward: -376.3 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.41 | D-Coll:15.4 | O-Coll:0.8
+[EP  680] Reward:  -21.2 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.39 | D-Coll:8.8 | O-Coll:0.0
+[EP  700] Reward:   89.3 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.49 | D-Coll:2.2 | O-Coll:0.0
+[EP  720] Reward:  -12.0 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.68 | D-Coll:7.5 | O-Coll:0.9
+[EP  740] Reward:-2431.9 | Capture: 70.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.76 | D-Coll:58.6 | O-Coll:0.7
+[EP  760] Reward: -474.9 | Capture: 75.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.37 | D-Coll:17.5 | O-Coll:0.8
+[EP  780] Reward:  480.0 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.44 | D-Coll:2.8 | O-Coll:0.8
+[EP  800] Reward: -187.2 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.72 | D-Coll:10.0 | O-Coll:1.4
+[EP  820] Reward:  596.3 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.38 | D-Coll:0.7 | O-Coll:1.0
+[EP  840] Reward: -316.7 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.42 | D-Coll:17.7 | O-Coll:0.3
+[EP  860] Reward: -681.6 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.47 | D-Coll:25.4 | O-Coll:0.6
+[EP  880] Reward: -555.1 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.42 | D-Coll:22.2 | O-Coll:0.7
+[EP  900] Reward:-2267.0 | Capture: 75.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.69 | D-Coll:32.5 | O-Coll:0.0
+[EP  920] Reward:  357.4 | Capture:100.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.32 | D-Coll:3.9 | O-Coll:0.2
+[EP  940] Reward:  369.9 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.65 | D-Coll:0.9 | O-Coll:0.1
+[EP  960] Reward:  -83.1 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.73 | D-Coll:9.7 | O-Coll:2.8
+[EP  980] Reward:-1267.5 | Capture: 75.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.50 | D-Coll:34.6 | O-Coll:0.7
+[EP 1000] Reward:  493.3 | Capture:100.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.20 | D-Coll:1.4 | O-Coll:0.0
+✓ Saved checkpoint: checkpoints_mappo/mappo_aeg_ep1000.pt
+✓ Saved training curves to checkpoints_mappo/training_curves.png
+
+--- Running evaluation at episode 1000 ---
+
+============================================================
+EVALUATING POLICY (100 episodes)
+============================================================
+[10/100] Capture Rate: 40.0% | Avg Reward: -1824.4
+[20/100] Capture Rate: 35.0% | Avg Reward: -725.7
+[30/100] Capture Rate: 50.0% | Avg Reward: -317.0
+[40/100] Capture Rate: 50.0% | Avg Reward: -747.7
+[50/100] Capture Rate: 52.0% | Avg Reward: -1073.9
+[60/100] Capture Rate: 46.7% | Avg Reward: -1216.5
+[70/100] Capture Rate: 47.1% | Avg Reward: -1694.5
+[80/100] Capture Rate: 48.8% | Avg Reward: -1577.9
+[90/100] Capture Rate: 46.7% | Avg Reward: -1440.8
+[100/100] Capture Rate: 46.0% | Avg Reward: -1351.2
+✓ Saved evaluation plots to checkpoints_mappo/evaluation_results.png
+
+============================================================
+EVALUATION SUMMARY
+============================================================
+Capture Rate:          46.00%
+Avg Reward:            -1351.16 ± 5384.94
+Avg Min Distance:      4.008 ± 1.562
+Avg Episode Length:    354.2 ± 267.0
+Avg Drone Collisions:  36.57
+Avg Obs Collisions:    0.00
+============================================================
+
+[EP 1020] Reward:  -41.9 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.46 | D-Coll:11.1 | O-Coll:1.1
+[EP 1040] Reward:  434.5 | Capture:100.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.27 | D-Coll:1.4 | O-Coll:1.9
+[EP 1060] Reward:-1298.9 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.51 | D-Coll:36.2 | O-Coll:0.0
+[EP 1080] Reward:  474.7 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.27 | D-Coll:1.9 | O-Coll:0.8
+[EP 1100] Reward:-1221.6 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.43 | D-Coll:37.0 | O-Coll:0.5
+[EP 1120] Reward:-1001.2 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.33 | D-Coll:25.8 | O-Coll:1.4
+[EP 1140] Reward:  255.1 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.32 | D-Coll:2.7 | O-Coll:0.9
+[EP 1160] Reward:  673.6 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.37 | D-Coll:0.1 | O-Coll:0.6
+[EP 1180] Reward: -638.8 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.34 | D-Coll:21.9 | O-Coll:0.1
+[EP 1200] Reward:  500.8 | Capture:100.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.33 | D-Coll:2.4 | O-Coll:1.4
+[EP 1220] Reward:  504.2 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.35 | D-Coll:1.5 | O-Coll:0.0
+[EP 1240] Reward:  -37.5 | Capture: 75.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.55 | D-Coll:3.6 | O-Coll:2.5
+[EP 1260] Reward:  476.0 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.29 | D-Coll:1.1 | O-Coll:0.8
+[EP 1280] Reward:  314.2 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.33 | D-Coll:1.6 | O-Coll:0.5
+[EP 1300] Reward:    4.8 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.40 | D-Coll:11.4 | O-Coll:0.2
+[EP 1320] Reward: -312.4 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.34 | D-Coll:10.1 | O-Coll:1.1
+[EP 1340] Reward:  386.4 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.33 | D-Coll:1.8 | O-Coll:0.0
+[EP 1360] Reward: -818.2 | Capture: 75.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.61 | D-Coll:21.0 | O-Coll:2.4
+[EP 1380] Reward: -465.3 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.48 | D-Coll:19.1 | O-Coll:0.9
+[EP 1400] Reward: -316.6 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.36 | D-Coll:14.1 | O-Coll:0.9
+[EP 1420] Reward: -821.2 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.50 | D-Coll:21.3 | O-Coll:1.0
+[EP 1440] Reward:-1034.9 | Capture: 70.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.78 | D-Coll:29.5 | O-Coll:0.3
+[EP 1460] Reward: -265.4 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.48 | D-Coll:12.9 | O-Coll:6.5
+[EP 1480] Reward:  512.0 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.28 | D-Coll:5.2 | O-Coll:0.0
+[EP 1500] Reward: -401.0 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.49 | D-Coll:11.6 | O-Coll:0.0
+✓ Saved checkpoint: checkpoints_mappo/mappo_aeg_ep1500.pt
+✓ Saved training curves to checkpoints_mappo/training_curves.png
+
+--- Running evaluation at episode 1500 ---
+
+============================================================
+EVALUATING POLICY (100 episodes)
+============================================================
+[10/100] Capture Rate: 60.0% | Avg Reward: 231.3
+[20/100] Capture Rate: 50.0% | Avg Reward: 89.0
+[30/100] Capture Rate: 46.7% | Avg Reward: 55.9
+[40/100] Capture Rate: 40.0% | Avg Reward: -0.6
+[50/100] Capture Rate: 42.0% | Avg Reward: -16.3
+[60/100] Capture Rate: 46.7% | Avg Reward: -73.4
+[70/100] Capture Rate: 51.4% | Avg Reward: -43.3
+[80/100] Capture Rate: 53.8% | Avg Reward: -72.3
+[90/100] Capture Rate: 54.4% | Avg Reward: -32.9
+[100/100] Capture Rate: 52.0% | Avg Reward: 93.8
+✓ Saved evaluation plots to checkpoints_mappo/evaluation_results.png
+
+============================================================
+EVALUATION SUMMARY
+============================================================
+Capture Rate:          52.00%
+Avg Reward:            93.84 ± 1429.89
+Avg Min Distance:      3.819 ± 1.577
+Avg Episode Length:    318.5 ± 270.9
+Avg Drone Collisions:  7.19
+Avg Obs Collisions:    0.00
+============================================================
+
+[EP 1520] Reward: -742.2 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.30 | D-Coll:26.2 | O-Coll:0.5
+[EP 1540] Reward:  474.6 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.43 | D-Coll:1.1 | O-Coll:0.0
+[EP 1560] Reward:-1418.1 | Capture: 75.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.57 | D-Coll:27.5 | O-Coll:0.0
+[EP 1580] Reward:  498.2 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.30 | D-Coll:2.6 | O-Coll:0.0
+[EP 1600] Reward:-2752.0 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.46 | D-Coll:62.1 | O-Coll:0.0
+[EP 1620] Reward: -167.6 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.40 | D-Coll:11.3 | O-Coll:0.9
+[EP 1640] Reward: -410.7 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.52 | D-Coll:20.7 | O-Coll:1.4
+[EP 1660] Reward:  551.9 | Capture:100.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.35 | D-Coll:0.6 | O-Coll:0.0
+[EP 1680] Reward: -505.6 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.34 | D-Coll:20.9 | O-Coll:0.8
+[EP 1700] Reward:  308.7 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.45 | D-Coll:2.1 | O-Coll:0.0
+[EP 1720] Reward:  -52.0 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.39 | D-Coll:10.3 | O-Coll:2.0
+[EP 1740] Reward: -343.0 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.15 | D-Coll:18.9 | O-Coll:1.6
+[EP 1760] Reward:-1562.0 | Capture: 75.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.56 | D-Coll:39.7 | O-Coll:0.0
+[EP 1780] Reward:  383.6 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.52 | D-Coll:1.3 | O-Coll:0.0
+[EP 1800] Reward:-3872.7 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.60 | D-Coll:79.8 | O-Coll:2.5
+[EP 1820] Reward:  181.5 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.43 | D-Coll:1.9 | O-Coll:0.0
+[EP 1840] Reward:-1922.8 | Capture: 75.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.77 | D-Coll:46.9 | O-Coll:0.8
+[EP 1860] Reward: -464.8 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.31 | D-Coll:22.8 | O-Coll:0.0
+[EP 1880] Reward:  375.9 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.47 | D-Coll:1.7 | O-Coll:0.0
+[EP 1900] Reward:  118.2 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.63 | D-Coll:5.0 | O-Coll:1.3
+[EP 1920] Reward:  581.3 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.39 | D-Coll:2.0 | O-Coll:0.3
+[EP 1940] Reward:-1668.1 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.54 | D-Coll:36.6 | O-Coll:2.9
+[EP 1960] Reward:-1490.7 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.40 | D-Coll:41.2 | O-Coll:0.0
+[EP 1980] Reward:-1219.0 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.52 | D-Coll:32.8 | O-Coll:1.1
+[EP 2000] Reward:-2546.2 | Capture: 75.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.66 | D-Coll:50.2 | O-Coll:3.8
+✓ Saved checkpoint: checkpoints_mappo/mappo_aeg_ep2000.pt
+✓ Saved training curves to checkpoints_mappo/training_curves.png
+
+--- Running evaluation at episode 2000 ---
+
+============================================================
+EVALUATING POLICY (100 episodes)
+============================================================
+[10/100] Capture Rate: 40.0% | Avg Reward: -171.5
+[20/100] Capture Rate: 50.0% | Avg Reward: -94.9
+[30/100] Capture Rate: 46.7% | Avg Reward: -848.2
+[40/100] Capture Rate: 45.0% | Avg Reward: -1357.2
+[50/100] Capture Rate: 44.0% | Avg Reward: -1233.2
+[60/100] Capture Rate: 46.7% | Avg Reward: -1617.1
+[70/100] Capture Rate: 47.1% | Avg Reward: -1397.0
+[80/100] Capture Rate: 43.8% | Avg Reward: -1594.4
+[90/100] Capture Rate: 43.3% | Avg Reward: -1756.8
+[100/100] Capture Rate: 41.0% | Avg Reward: -1665.2
+✓ Saved evaluation plots to checkpoints_mappo/evaluation_results.png
+
+============================================================
+EVALUATION SUMMARY
+============================================================
+Capture Rate:          41.00%
+Avg Reward:            -1665.18 ± 5312.64
+Avg Min Distance:      4.176 ± 1.568
+Avg Episode Length:    377.9 ± 266.7
+Avg Drone Collisions:  32.94
+Avg Obs Collisions:    0.00
+============================================================
+
+[EP 2020] Reward: -358.6 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.38 | D-Coll:10.9 | O-Coll:1.1
+[EP 2040] Reward:  -59.4 | Capture: 75.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.86 | D-Coll:3.9 | O-Coll:1.4
+[EP 2060] Reward:  481.0 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.33 | D-Coll:0.5 | O-Coll:1.2
+[EP 2080] Reward:  407.4 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.48 | D-Coll:0.3 | O-Coll:0.0
+[EP 2100] Reward:  520.9 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.56 | D-Coll:0.8 | O-Coll:0.7
+[EP 2120] Reward:  435.3 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.46 | D-Coll:3.3 | O-Coll:0.8
+[EP 2140] Reward:  367.9 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.21 | D-Coll:3.2 | O-Coll:0.0
+[EP 2160] Reward:-1206.7 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.50 | D-Coll:24.9 | O-Coll:1.9
+[EP 2180] Reward:  335.2 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.52 | D-Coll:1.6 | O-Coll:0.1
+[EP 2200] Reward:-1461.2 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.51 | D-Coll:39.1 | O-Coll:1.4
+[EP 2220] Reward:  430.7 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.42 | D-Coll:0.6 | O-Coll:0.7
+[EP 2240] Reward: -567.2 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.58 | D-Coll:19.4 | O-Coll:0.8
+[EP 2260] Reward: -572.1 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.43 | D-Coll:21.5 | O-Coll:0.0
+[EP 2280] Reward:-2975.0 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.44 | D-Coll:64.9 | O-Coll:1.4
+[EP 2300] Reward:-2211.7 | Capture: 80.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.61 | D-Coll:49.8 | O-Coll:1.0
+[EP 2320] Reward:  438.9 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.12 | D-Coll:1.2 | O-Coll:2.0
+[EP 2340] Reward:  415.4 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.43 | D-Coll:2.8 | O-Coll:0.7
+[EP 2360] Reward:  108.1 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.34 | D-Coll:3.9 | O-Coll:0.8
+[EP 2380] Reward:  137.0 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.48 | D-Coll:2.0 | O-Coll:1.9
+[EP 2400] Reward:-1331.1 | Capture: 75.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.69 | D-Coll:23.9 | O-Coll:3.2
+[EP 2420] Reward:  474.5 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.37 | D-Coll:0.5 | O-Coll:1.1
+[EP 2440] Reward:  435.1 | Capture:100.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.38 | D-Coll:2.3 | O-Coll:0.8
+[EP 2460] Reward: -563.0 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.45 | D-Coll:21.1 | O-Coll:1.4
+[EP 2480] Reward:  203.4 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.60 | D-Coll:1.8 | O-Coll:1.2
+[EP 2500] Reward:-1110.7 | Capture: 75.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.81 | D-Coll:25.6 | O-Coll:0.8
+✓ Saved checkpoint: checkpoints_mappo/mappo_aeg_ep2500.pt
+✓ Saved training curves to checkpoints_mappo/training_curves.png
+
+--- Running evaluation at episode 2500 ---
+
+============================================================
+EVALUATING POLICY (100 episodes)
+============================================================
+[10/100] Capture Rate: 50.0% | Avg Reward: -4264.4
+[20/100] Capture Rate: 55.0% | Avg Reward: -3331.7
+[30/100] Capture Rate: 60.0% | Avg Reward: -2147.2
+[40/100] Capture Rate: 67.5% | Avg Reward: -1526.2
+[50/100] Capture Rate: 72.0% | Avg Reward: -1683.3
+[60/100] Capture Rate: 75.0% | Avg Reward: -1421.4
+[70/100] Capture Rate: 74.3% | Avg Reward: -1544.6
+[80/100] Capture Rate: 71.2% | Avg Reward: -1261.3
+[90/100] Capture Rate: 71.1% | Avg Reward: -1827.0
+[100/100] Capture Rate: 72.0% | Avg Reward: -1906.6
+✓ Saved evaluation plots to checkpoints_mappo/evaluation_results.png
+
+============================================================
+EVALUATION SUMMARY
+============================================================
+Capture Rate:          72.00%
+Avg Reward:            -1906.57 ± 6927.69
+Avg Min Distance:      3.229 ± 1.335
+Avg Episode Length:    209.5 ± 247.4
+Avg Drone Collisions:  48.81
+Avg Obs Collisions:    0.00
+============================================================
+
+[EP 2520] Reward:  301.0 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.58 | D-Coll:3.0 | O-Coll:0.9
+[EP 2540] Reward:  567.0 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.31 | D-Coll:0.6 | O-Coll:0.3
+[EP 2560] Reward: -748.6 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.48 | D-Coll:22.8 | O-Coll:3.2
+[EP 2580] Reward:-2652.1 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.48 | D-Coll:56.3 | O-Coll:1.8
+[EP 2600] Reward:-1061.8 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.39 | D-Coll:28.6 | O-Coll:0.9
+[EP 2620] Reward:  412.0 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.48 | D-Coll:1.9 | O-Coll:0.1
+[EP 2640] Reward: -962.6 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.36 | D-Coll:22.9 | O-Coll:5.2
+[EP 2660] Reward: -606.2 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.50 | D-Coll:20.6 | O-Coll:1.1
+[EP 2680] Reward:-1002.4 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.51 | D-Coll:27.6 | O-Coll:2.6
+[EP 2700] Reward:  117.5 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.42 | D-Coll:8.2 | O-Coll:0.0
+[EP 2720] Reward:-1803.0 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.53 | D-Coll:32.6 | O-Coll:1.4
+[EP 2740] Reward:-3594.3 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.29 | D-Coll:78.5 | O-Coll:0.9
+[EP 2760] Reward: -785.7 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.26 | D-Coll:26.1 | O-Coll:0.9
+[EP 2780] Reward:  238.0 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.40 | D-Coll:0.4 | O-Coll:0.2
+[EP 2800] Reward:   31.0 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.50 | D-Coll:1.0 | O-Coll:0.7
+[EP 2820] Reward:-1872.7 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.60 | D-Coll:42.2 | O-Coll:0.9
+[EP 2840] Reward:  167.4 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.47 | D-Coll:0.5 | O-Coll:0.6
+[EP 2860] Reward:-1714.2 | Capture: 90.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.52 | D-Coll:42.1 | O-Coll:0.9
+[EP 2880] Reward: -224.7 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.62 | D-Coll:14.1 | O-Coll:0.5
+[EP 2900] Reward: -104.7 | Capture:100.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.33 | D-Coll:11.9 | O-Coll:1.9
+[EP 2920] Reward: -320.3 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.52 | D-Coll:11.9 | O-Coll:2.8
+[EP 2940] Reward:  473.4 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.34 | D-Coll:1.0 | O-Coll:0.4
+[EP 2960] Reward:   94.9 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.35 | D-Coll:5.5 | O-Coll:1.9
+[EP 2980] Reward:  381.4 | Capture: 95.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.29 | D-Coll:0.1 | O-Coll:0.3
+[EP 3000] Reward: -890.6 | Capture: 85.0% | Archive:  5 | AvgObs:0.0 | MinDist:2.55 | D-Coll:22.1 | O-Coll:3.0
+✓ Saved checkpoint: checkpoints_mappo/mappo_aeg_ep3000.pt
+✓ Saved training curves to checkpoints_mappo/training_curves.png
+
+--- Running evaluation at episode 3000 ---
+
+============================================================
+EVALUATING POLICY (100 episodes)
+============================================================
+[10/100] Capture Rate: 90.0% | Avg Reward: 264.8
+[20/100] Capture Rate: 85.0% | Avg Reward: 196.4
+[30/100] Capture Rate: 76.7% | Avg Reward: -2757.9
+[40/100] Capture Rate: 72.5% | Avg Reward: -2812.5
+[50/100] Capture Rate: 74.0% | Avg Reward: -2452.9
+[60/100] Capture Rate: 71.7% | Avg Reward: -2019.3
+[70/100] Capture Rate: 74.3% | Avg Reward: -1898.3
+[80/100] Capture Rate: 70.0% | Avg Reward: -2355.1
+[90/100] Capture Rate: 68.9% | Avg Reward: -2543.9
+[100/100] Capture Rate: 71.0% | Avg Reward: -2243.8
+✓ Saved evaluation plots to checkpoints_mappo/evaluation_results.png
+
+============================================================
+EVALUATION SUMMARY
+============================================================
+Capture Rate:          71.00%
+Avg Reward:            -2243.81 ± 7211.95
+Avg Min Distance:      3.332 ± 1.438
+Avg Episode Length:    211.6 ± 250.9
+Avg Drone Collisions:  55.15
+Avg Obs Collisions:    0.00
+============================================================
+
+✓ Saved training curves to checkpoints_mappo/training_curves.png
+
+============================================================
+TRAINING COMPLETED
+============================================================
