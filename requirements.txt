@@ -1,0 +1,14 @@
+# Core dependencies
+torch>=2.0.0
+numpy>=1.21.0
+pybullet>=3.2.5
+gym>=0.21.0
+pyyaml>=6.0
+
+# Visualization and logging
+matplotlib>=3.5.0
+tensorboard>=2.11.0
+tqdm>=4.62.0
+
+# Optional: for better performance
+scipy>=1.7.0
